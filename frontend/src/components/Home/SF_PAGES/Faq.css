@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  
+.bodyone {
+    font-family: Trebuchet MS, Charcoal, sans-serif;
+    height: 100%;
+    width: 100%;
+    top: 10%;
+    position:absolute;
+    z-index: 3;
+}
+  
+  h1{
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  
+  .content {
+    width: 90%;
+    padding: 20px;
+    margin: 0 auto;
+    padding: 0 60px 0 0;
+  }
+  
+
+  .faqheading {
+    text-align: center;
+    left:48%;
+    position:absolute;
+  }
+  .questions:checked ~ .answers{
+    height: auto;
+    opacity: 1;
+    padding: 15px;
+    width: 100%;
+  }
+  
+  .plus {
+    position: absolute;
+    color: white;
+    margin: 5px 10px;
+    padding: auto 0;
+    z-index: 3;
+    font-size: 2em;
+    line-height: 100%;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease;
+  }
+  
+  .questions:checked ~ .plus {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  
+  .contents{
+    display: flex;
+  }
+
+  .left{
+    width: 25%;
+    color: rgb(215, 196, 196);
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+
+  .right{
+    margin: 0 8px 2px 8px; 
+    top: 0%;
+    left: 30%;
+    position: absolute;
+    width:65%;
+    height: 400%;
+    border: 5px solid black;
+  
+  }
+
+  .topics{
+    border: 2px gray solid;
+  }
+
+  .topic{
+    padding: 10px;
+    margin: 0 8px 2px 8px;
+  }
+
+  .search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border-right: none;
+    padding: 5px;
+    height: 36px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+
+  
+  .searchTerm:focus{
+    color: #515858;
+  }
+  
+  .searchButton {
+    width: 36px;
+    padding: 0 auto;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border: 2px rgb(77, 76, 76) solid;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  
+
+  .questions {
+    top: 2.5%;
+    left: 0%;
+    position: absolute;
+    width:100%;
+    height: 400%;
+    display: table-column;
+  }
+  .question1 {
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    border: 5px black;
+    cursor: pointer;
+    background-color: grey;
+  }
+  .answers {
+    top:1%;
+    left: 0%;
+    position: absolute;
+    height: .5%;
+    width: 100%;
+    display: none;
+  }
+  /*Resize the wrap to see the search bar change!*/
+  .wrap{
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  /* @media only screen and (max-width: 680px) {
+    
+    .contents{
+        display: block;
+        margin: auto 0;
+    }
+
+    .left{
+        width: 100%;
+        margin: 20px 0;
+    }
+
+
+  } */

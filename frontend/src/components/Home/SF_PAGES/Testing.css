@@ -1,0 +1,74 @@
+.bckgrndimg {
+    background-image: radial-gradient(circle,blue,yellow);
+    backdrop-filter: blur(162px);
+    z-index:5;
+    position: absolute;
+    top: 20%;
+    left : 10%;
+    height:400px;
+    width: 400px;
+}
+.lineone{
+    width:100%;
+    color: black;
+    background-color: black;
+    height: 3px;
+    position:absolute;
+    top: 100%;
+    z-index: 6;
+}
+.ellipseone{
+position: fixed;
+width: 369px;
+height: 369px;
+left: 20%;
+top: 30%;
+
+background: rgba(88, 124, 189, 0.8);
+filter: blur(100px);
+}
+.ellipsetwo{
+position: fixed;
+width: 288px;
+height: 288px;
+left: 756px;
+top: 512px;
+
+background: #587CBD;
+filter: blur(100px);
+}
+.ellipsethree{
+position: fixed;
+width: 462px;
+height: 431px;
+left: 199px;
+top: 471px;
+
+background: rgba(55, 192, 195, 0.7);
+filter: blur(100px);
+}
+.ellipsefour{
+position: fixed;
+width: 410px;
+height: 410px;
+left: 527px;
+top: 283px;
+
+background: rgba(71, 92, 170, 0.8);
+filter: blur(100px);
+}
+.rectangle {
+position: fixed;
+width: 100%;
+height: 100%;
+background: #151515;
+z-index: 1;
+} 
+.btnfunc{
+    z-index:2;
+    position: absolute;
+    top:10%;
+    width:40%;
+    left:45%;
+    height:20%;
+}

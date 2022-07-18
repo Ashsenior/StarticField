@@ -1,0 +1,43 @@
+bodyone{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.term-sheet{
+    padding: 20px 20px;
+    max-width: 500px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+.term-text{
+    padding: 4px;
+    margin: 4px;
+    height: 350px;
+    overflow-y: auto;
+}
+.term-text::-webkit-scrollbar{
+    width: 3px;
+    background-color: black;
+}
+.term-text::-webkit-scrollbar-thumb{
+    background-color: rgb(200, 0, 255);
+}
+.button{
+    margin: 2px;
+    display: flex;
+    padding: 0 20px;
+    justify-content: center;
+}
+.btn{
+    height: 50px;
+    width: calc(50% - 6px);
+    border-radius: 5px;
+    font-size: large;
+}
+.disclaimer{
+    text-align: center;
+}

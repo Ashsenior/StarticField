@@ -1,0 +1,51 @@
+.ellipseone{
+position: fixed;
+width: calc(369*100/1440%);
+height: calc(369*100/1440%);
+left: 20%;
+top: 30%;
+
+background: rgba(88, 124, 189, 0.8);
+filter: blur(calc(100*100/1440%));
+z-index: 1;
+}
+.ellipsetwo{
+position: fixed;
+width: calc(288*100/1440%);
+height: calc(288*100/1440%);
+left: calc(756*100/1440%);
+top: calc(512*100/1440%);
+
+background: #587CBD;
+filter: blur(calc(100*100/1440%));
+z-index: 1;
+}
+.ellipsethree{
+position: fixed;
+width: calc(462*100/1440%);
+height: calc(431*100/1440%);
+left: calc(199*100/1440%);
+top: calc(471*100/1440%);
+
+background: rgba(55, 192, 195, 0.7);
+filter: blur(calc(100*100/1440%));
+z-index: 1;
+}
+.ellipsefour{
+position: fixed;
+width: calc(410*100/1440%);
+height: calc(410*100/1440%);
+left: calc(527*100/1440%);
+top: calc(283*100/1440%);
+
+background: rgba(71, 92, 170, 0.8);
+filter: blur(calc(100*100/1440%));
+z-index: 1;
+}
+.rectangle {
+position: fixed;
+width: 100%;
+height: 100%;
+background: #151515;
+z-index: 0;
+} 

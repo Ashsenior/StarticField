@@ -1,0 +1,48 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(270deg, #69C5AA 0%, #37C0C3 32.91%, #587CBD 66.12%, #475CAA 100%);
+  position:fixed;
+  top:0;
+  left:0%;
+  width: 100%;
+  z-index: 4;
+}
+
+li {
+  float: right;
+}
+.hdrsideImg {
+  top:0%;
+  height:7.5%;
+  width:17%;
+  position:fixed;
+  background: transparent;
+  z-index: 5;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 28px;
+  text-decoration: None;
+  font-size: 18px;
+  width:auto;
+  height:auto;
+}
+
+
+li a:hover:not(.active) {
+  background: linear-gradient(270deg, #69C5AA 0%, #37C0C3 32.91%, #587CBD 66.12%, #475CAA 100%);
+}
+
+.active:hover {
+  background: linear-gradient(270deg, #69C5AA 0%, #37C0C3 32.91%, #587CBD 66.12%, #475CAA 100%);
+}
+.active {
+  background-color: black;
+}
