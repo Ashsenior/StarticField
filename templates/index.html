@@ -82,8 +82,38 @@
         }
       }
   </script>
+  <style>
+    @media only screen and (max-width:900px) {
+      .image-wrapper {
+        display: none;
+      }
+      #w-node-_62514106-70ab-4319-b5a0-b3810934993c-4a9aa2b7 {
+        display: none;
+      }
+      #w-node-ec857be1-3942-22fd-8b3d-33c38a359bd5-4a9aa2b7 {
+        width: 80vw;
+      }
+    }
+    @media only screen and (max-width:600px) {
+      .image-wrapper {
+        display: none;
+      }
+      #w-node-_62514106-70ab-4319-b5a0-b3810934993c-4a9aa2b7 {
+        display: none;
+      }
+      .heading-2 {
+        width: 80vw;
+        font-size: 34px;
+        margin-top: -50px;
+      }
+      .paragraph-2 {
+        font-size: 16px;
+      }
+    }
+  </style>
 </head>
 <body class="body">
+  
   <div class="div-block">
     <div class="nav wf-section">
       <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
@@ -243,7 +273,7 @@
                                    display: inline-block;">
                                    <a href="" target="_blank"></a><img class='w3-img w3-round-large' src="{% static 'home/7.png' %}" loading="lazy" alt="" ></div></div>
       </div>
-      <div class="slidecontrols" style="position:relative;top:15vh;left:0vw;">
+      <div class="slidecontrols" style="position:relative;top:-15vh;left:0vw;">
         <button class="prevbutton" id="prev1" style="color: white; background-color: black; display: none; position:absolute; left:10vw; top:30vh;font-size: 50px;" onclick="prevFunction()"><</button>
         <button class="nextbutton" id="next1" style="color: white; background-color: black; display:unset; position:absolute;left:73vw;top:30vh;font-size:50px;" onclick="nextFunction()">></button></div>
     </div>
